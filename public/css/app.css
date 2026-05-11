@@ -1,0 +1,86 @@
+/* Tenda Gourmet - estils personalitzats */
+
+:root {
+    --color-primari: #8b2635;
+    --color-secundari: #f4a261;
+    --color-fosc: #264653;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background-color: #fffaf0;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #8b2635 0%, #264653 100%);
+    color: white;
+    padding: 4rem 1rem;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 2rem;
+}
+
+.card-producte {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card-producte:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-producte img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.preu {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--color-primari);
+}
+
+.badge-destacat {
+    background-color: var(--color-secundari);
+    color: white;
+}
+
+.btn-warning {
+    background-color: var(--color-secundari);
+    border-color: var(--color-secundari);
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #e08c4a;
+    border-color: #e08c4a;
+    color: white;
+}
+
+.oferta-card {
+    background: linear-gradient(135deg, #f4a261, #e76f51);
+    color: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer a:hover {
+    color: var(--color-secundari) !important;
+}
+
+.producte-placeholder {
+    background: linear-gradient(135deg, #f4e8d0, #d4a373);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+}
